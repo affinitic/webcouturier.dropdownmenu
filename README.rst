@@ -1,6 +1,9 @@
 webcouturier.dropdownmenu
 =========================
 
+.. image:: https://travis-ci.org/affinitic/webcouturier.dropdownmenu.png
+    :target: http://travis-ci.org/affinitic/webcouturier.dropdownmenu
+
 Overview
 --------
 
