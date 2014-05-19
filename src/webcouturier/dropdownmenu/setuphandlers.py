@@ -7,7 +7,14 @@ def uninstall_configlet(portal):
     controlpanel_tool.unregisterConfiglet('DropdownConfiguration')
 
 
+def remove_properties(portal):
+    pp = getToolByName(portal, 'portal_properties')
+    pp.manage_delObjects(['dropdown_properties'])
+
+
 def uninstall(context):
     if context.readDataFile('dropdownmenu-uninstall.txt') is None:
         return
-    uninstall_configlet(context.getSite())
+    portal = context.getSite()
+    uninstall_configlet(portal)
+    remove_properties(portal)

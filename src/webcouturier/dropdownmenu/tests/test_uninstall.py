@@ -40,3 +40,13 @@ class TestUninstall(unittest.TestCase):
         controlpanel = getToolByName(self.portal, "portal_controlpanel")
         actions_ids = [action.getId() for action in controlpanel.listActions()]
         self.assertFalse('DropdownConfiguration' in actions_ids)
+
+    def test_properties_uninstall(self):
+        ptool = self.portal.portal_properties
+        self.assertEquals(ptool.get('dropdown_properties', None), None)
+
+    def test_skins(self):
+        stool = self.portal.portal_skins
+        skins = stool.objectIds()
+        self.assertFalse('dropdownmenu' in skins)
+        self.assertFalse('dropdownmenu_sunburst' in skins)
