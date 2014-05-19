@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<object name="portal_properties" meta_type="Plone Properties Tool">
+ <object name="dropdown_properties" meta_type="Plone Property Sheet" remove="True">
+  <property name="title" remove="True">Dropdown menu properties</property>
+  <property name="dropdown_depth" remove="True" type="int">3</property>
+  <property name="enable_caching" remove="True" type="boolean">False</property>
+  <property name="enable_parent_clickable" remove="True" type="boolean">True</property>
+  <property name="enable_desc" remove="True" type="boolean">False</property>
+  <property name="enable_thumbs" remove="True" type="string">none</property>
+ </object>
+</object>

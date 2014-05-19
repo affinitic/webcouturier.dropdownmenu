@@ -1,0 +1,5 @@
+<layers>
+	<layer name="webcouturier.dropdownmenu"
+           remove="True"
+           interface="webcouturier.dropdownmenu.browser.interfaces.IDropdownSpecific" />
+</layers>

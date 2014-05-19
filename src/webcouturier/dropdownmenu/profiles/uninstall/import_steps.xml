@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<import-steps>
+
+  <import-step
+     id="remember-uninstall"
+     version="*"
+     handler="webcouturier.dropdownmenu.setuphandlers.uninstall"
+     title="Remember uninstall various">
+    Remove webcouturier.dropdownmenu machinery various
+  </import-step>
+
+</import-steps>
