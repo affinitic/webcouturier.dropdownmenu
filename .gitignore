@@ -21,6 +21,7 @@ dist
 *.pyc
 *.pyo
 *.tmp*
-
-
+lib
+include
+local
 .DS_Store
