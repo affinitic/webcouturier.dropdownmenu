@@ -1,3 +1,10 @@
-include docs/*.txt
-recursive-include collective *.css *.js *.pdf *.png *.po *.pot *.pt *.txt *.xml *.zcml
-global-exclude *.pyc *~
+include setup.py
+include *.rst
+include *.txt
+exclude *.cfg
+exclude .travis.yml
+exclude bootstrap.py
+graft src 
+recursive-include docs LICENSE.*
+recursive-include docs *.txt
+global-exclude *.pyc
