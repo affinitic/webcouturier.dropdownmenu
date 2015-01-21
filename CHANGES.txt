@@ -6,7 +6,8 @@ Changelog
 2.3.2.cpskinmigration2 (unreleased)
 -----------------------------------
 
-- Nothing changed yet.
+- Imporve uninstall steps
+  [bsuttor]
 
 
 2.3.2.cpskinmigration1 (2014-12-05)
