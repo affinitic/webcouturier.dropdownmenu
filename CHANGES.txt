@@ -3,7 +3,7 @@ Changelog
 
 (name of developer listed in brackets)
 
-2.3.2.cpskinmigration2 (unreleased)
+2.3.2.cpskinmigration3 (2015-01-21)
 -----------------------------------
 
 - Imporve uninstall steps
