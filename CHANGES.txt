@@ -3,6 +3,12 @@ Changelog
 
 (name of developer listed in brackets)
 
+2.3.2.cpskinmigration5 (unreleased)
+-----------------------------------
+
+- Nothing changed yet.
+
+
 2.3.2.cpskinmigration4 (2015-02-10)
 -----------------------------------
 
