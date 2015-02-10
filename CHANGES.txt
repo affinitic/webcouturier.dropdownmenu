@@ -3,7 +3,7 @@ Changelog
 
 (name of developer listed in brackets)
 
-2.3.2.cpskinmigration4 (unreleased)
+2.3.2.cpskinmigration4 (2015-02-10)
 -----------------------------------
 
 - Fix error on upgrade step when product is uninstalled.

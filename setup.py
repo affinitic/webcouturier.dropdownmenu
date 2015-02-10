@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-version = '2.3.2.cpskinmigration4.dev0'
+version = '2.3.2.cpskinmigration4'
 
 setup(name='webcouturier.dropdownmenu',
       version=version,
