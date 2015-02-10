@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from Products.CMFCore.utils import getToolByName
 
 PROFILE = 'profile-webcouturier.dropdownmenu:default'
@@ -28,12 +29,13 @@ def upgrade_1000_to_1010(context):
 def upgrade_1011_to_1012(context):
     """Adds setting to portal properties"""
     pprops = getToolByName(context, 'portal_properties')
-    props = pprops.dropdown_properties
-    try:
-        props.manage_addProperty(id='enable_desc', value=False, type='boolean')
-    except:
-        pass
-    try:
-        props.manage_addProperty(id='enable_thumbs', value='none', type='string')
-    except:
-        pass
+    if hasattr(pprops, 'dropdown_properties'):
+        props = pprops.dropdown_properties
+        try:
+            props.manage_addProperty(id='enable_desc', value=False, type='boolean')
+        except:
+            pass
+        try:
+            props.manage_addProperty(id='enable_thumbs', value='none', type='string')
+        except:
+            pass
